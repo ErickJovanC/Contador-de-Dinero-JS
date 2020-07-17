@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contador de Dinero</title>
+</head>
+<body>
+    <div class="container">
+        <div id="contador">
+            <h1 class="title">Contador de Dinero</h1>
+            <form action="#">
+                <table class="table is-narrow is-hoverable">
+                    <tr>
+                        <th>Valor</th>
+                        <th>Unidades</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mil" class="derecha">$1,000</label>
+                        </td>
+                        <td>
+                            <input type="text" id="mil" size="4">
+                        </td>
+                        <td id="totalMil">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="quinientos" class="derecha">$500</label>
+                        </td>
+                        <td>
+                            <input type="text" id="quinientos" size="4">
+                        </td>
+                        <td id="totalQuinientos">
+                            0
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="docientos" class="derecha">$200</label>
+                        </td>
+                        <td>
+                            <input type="text" id="docientos" size="4">
+                        </td>
+                        <td id="totalDocientos">
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cien">$100</label>
+                        </td>
+                        <td>
+                            <input type="text" id="cien" size="4">
+                        </td>
+                        <td id="totalCien">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cincuenta">$50</label>
+                        </td>
+                        <td>
+                            <input type="text" id="cincuenta" size="4">
+                        </td>
+                        <td id="totalCincuenta">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="veinte">$20</label>
+                        </td>
+                        <td>
+                            <input type="text" id="veinte" size="4">
+                        </td>
+                        <td id="totalVeinte">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="diez">$10</label>
+                        </td>
+                        <td>
+                            <input type="text" id="diez" size="4">
+                        </td>
+                        <td id="totalDiez">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cinco">$5</label>
+                        </td>
+                        <td>
+                            <input type="text" id="cinco" size="4">
+                        </td>
+                        <td id="totalCinco">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dos">$2</label>
+                        </td>
+                        <td>
+                            <input type="text" id="dos" size="4">
+                        </td>
+                        <td id="totalDos">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="uno" class="derecha">$1</label>
+                        </td>
+                        <td>
+                            <input type="text" id="uno" size="4">
+                        </td>
+                        <td id="totalUno">0</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cincuentaC">50c</label>
+                        </td>
+                        <td>
+                            <input type="text" id="cincuentaC" size="4">
+                        </td>
+                        <td id="totalCincuentaC">0</td>
+                    </tr>
+                    <tr>
+                        <td class="derecha">
+                            Total:
+                        </td>
+                        <td colspan="2" id="sumaTotal">
+                            0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="reset" value="Borrar" class="button is-danger" id="btnBorrar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html> 

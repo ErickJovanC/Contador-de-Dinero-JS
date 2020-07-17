@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    
+}
+
+#contador{
+    margin: auto;
+}
+
+#sumaTotal{
+    color: blue;
+    text-align: right;
+    font-size: large;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.btnBorrar{
+    margin: auto;
+    width: 100%;
+}
